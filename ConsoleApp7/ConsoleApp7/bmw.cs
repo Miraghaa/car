@@ -24,7 +24,7 @@
         {
             Console.WriteLine("bu boyda masin adi olar");
         }
-        if (9 > topspeed || topspeed < 1001)
+        if (9 > topspeed && topspeed < 1001)
         {
             Console.WriteLine("suret dehsetdi qadasi");
         }
@@ -32,7 +32,7 @@
         {
             Console.WriteLine("bu suretde masin olsa xeber ele mende alim");
         }
-        if (engine > 0.2 || engine < 11)
+        if (engine > 0.2 && engine < 11)
         {
             Console.WriteLine("mototrunda fulun fuludu");
         }
@@ -48,7 +48,7 @@
         {
             Console.WriteLine("masin 0 kmdi tep-teze salafan");
         }
-        if (hp > 49 || hp < 1001)
+        if (hp > 49 && hp < 1001)
         {
             Console.WriteLine("at gucu eladi");
         }
