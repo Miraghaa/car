@@ -44,6 +44,10 @@
         {
             Console.WriteLine("masin surulub");
         }
+        else
+        {
+            Console.WriteLine("masin 0 kmdi tep-teze salafan");
+        }
         if (hp > 49 || hp < 1001)
         {
             Console.WriteLine("at gucu eladi");
